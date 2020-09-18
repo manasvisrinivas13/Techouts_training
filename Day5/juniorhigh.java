@@ -1,6 +1,7 @@
 package school;
 import school.student;
 import school.staff;
+import school.studentmarks;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -25,6 +26,7 @@ public abstract class juniorhigh
 			{
 				student p = new student();
 			    p.profile();
+			    p.marks();
 			}
 			
 			System.out.println("enter salary of the staff");
