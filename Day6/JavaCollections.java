@@ -92,6 +92,30 @@ public static void main(String args[])
         {  
            System.out.println(itr4.next());  
         } 
+	
+       System.out.println();
+    
+       Stack<String> stackOfCards = new Stack<>();
+       System.out.println("Implementation of Stack.\nPushing values in stack.");
+       stackOfCards.push("Jack");
+       stackOfCards.push("Queen");
+       stackOfCards.push("King");
+       stackOfCards.push("Ace");
+
+       System.out.println("Stack : " + stackOfCards);
+       System.out.println("\nChecking if the Stack is empty.\nIs Stack empty? : " + stackOfCards.isEmpty());
+       System.out.println("\nFind the size of Stack.\nSize of Stack : " + stackOfCards.size());
+	
+       // The search() method returns the 1-based position of the element from the top of the stack
+       // It returns -1 if the element was not found in the stack
+       System.out.println("Searching if the element 'Queen' exists in the stack");
+       int position = stackOfCards.search("Ace");
+
+       if(position != -1) {
+           System.out.println("Found the element \"Ace\" at position : " + position);
+       } else {
+           System.out.println("Element not found");
+       }
    } 
 
 }  
@@ -107,20 +131,6 @@ public static void main(String args[])
     while(itr11.hasNext())
     {  
     System.out.println(itr11.next());  
-    } 
-    
-    Stack<String> stack = new Stack<String>(); 
-    System.out.println("\nStack:");
-    stack.push("Ayush");  
-    stack.push("Garvit");  
-    stack.push("Amit");  
-    stack.push("Ashish");  
-    stack.push("Garima");  
-    stack.pop();  
-    Iterator<String> itr2=stack.iterator();  
-    while(itr2.hasNext())
-    {  
-    System.out.println(itr2.next());  
-    } 
+    }
     */ 
   
