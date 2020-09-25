@@ -1,0 +1,14 @@
+This folder consists of the code for the folllowing problem statement:
+
+Create a application to book slots at a Sports complex
+1. On load create data 
+    A. Badminton court - 10 slots each with timings against each ( 1 hour per each slot)
+    B. Football slots - 20 slots (30 mins for each slot)
+    C. Box cricket -5 slots ( 2 hours each)
+
+2. User needs to enter his/her name
+3. Show the list of sports
+4. Maintain the timing slots against each sport in other list.
+5. Once user gives input of which sport he/she wants on the next step show the sport name and available slots.
+6. Once the user selects a slot and enters the data , show a success message with his booking details and delete the slot record from the list.
+7. Then when they hit enter again ask for new user details untill the data is empty / program is terminated
