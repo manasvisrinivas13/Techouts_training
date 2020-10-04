@@ -1,0 +1,56 @@
+27 programs
+
+1. Implement one-many association for Company and Employee.(Make sure to have rating,startYear for Employee)
+2. Implement many-many association for Trainee and StudyMaterial.
+3. With help of an anonymous inner class, implement any abstract method of the interface. Observe on working of anonymous Inner class here.
+4. hashCode(), equals(), toString() and .equals(), .parseInt()=>Perform programs
+5. Design a class OnlyOnce and make sure that only one time it is instantiated. 
+6. User should be asked to enter any date.
+	1 method checks if input date is earlier to present date.
+	1 method checks if input date is after to present date.
+	1 method converts given date into "yyyy-MM-dd HH:mm:ssZ" pattern.
+
+7. In an array of 1-10, multiple numbers are duplicates, how do you find duplicates using Map implemented classes.
+8. Using TreeSet, make sure to add varied data types to the set including Upper and Lower case and predict your output.
+9. Perform analysis on ListIterator and Iterator and provide your handson examples on each analysis.
+
+10. A thread  has "add" operation,other thread performs"avg" and 
+	other thread performs "display" operation which  displays avg and add details after the two threads are compeletely performed.6
+11. Display all the properties of running threads. Create 3 threads and rename thread1 to "yourName" and make this thread a daemon thread.
+	Get the updated thread details. 
+13. For any created thread, Observe the thread life cycle on each run.
+
+14. Employee has methods for create, read and write to a file.
+	Manager extends employer and have these file methods overriden(Examine here without handling the exceptions) along with delete the file.
+15. Write the details of Employee class to a file in your local and make this file non-editable.
+16. Convert from CSV to excel.
+17. Convert from Excel to a CSV File.
+
+
+18. Fetch Employee details on decreasing order of their rating and decreasing order of their StartYear from Q.14.
+19. Implement an exception "InvalidUserName".
+	User inputs his UserName in console. When length of userName is <10 or if it has "&", this should be handled by the exception.
+
+20. Methods of Iterator:hasNext(),next(),remove()
+	Methods of ListIterator:add(E e),hasNext(),hasPrevious(),next(),nextIndex(),previous(),previousIndex(),remove(),set(E e)	 
+21. Class named Operations have final variables like plus,minus,divide and multiply.
+	This class has a method named calculate which takes 2 inputs of type double and return value in double
+		inside calculate: if plus, inputs are added and returned.(similarly for other methods minus,divide and multiply).
+			  	  AssertionError is also thrown when user doesn't perform any of these operations in default.
+	In your main method: calculate all 4 results and have these printed in console.
+	Make sure to have dynamic inputs.
+
+
+22. Provide an interface Company with 
+	default method of return type double calculating the profit(CP-SP)
+	static method of return type String which takes (double) input from previous method and returns company name.
+	Abstract method String getCompDetails(double profit,String name);=>Needs to be implemented using Lambda expression.
+23. Perform calculations such as count,sum,min,avg,max for given input of arrayList using Stream API.
+24. Using Consumer Interface,print stream of integers ranging from 1 to 10 and make sure to neglect numbers between 3 and 7.
+25. Using Consumer Interface,print stream of integers ranging from 1 to 10 and double these numbers in your output.
+26. Perform handson on every methods on OptionalClass, ParallelSort, StringJoiner,Collector class in Streams.
+
+27. Exceptions with many catches and its order of execution.
+	examine on specific to general. Make sure to include both compile time and runtime exceptions in it.
+	try followed by catch and finally with return in all blocks. Examine output.
+	try followed by catch with return in both blocks. Examine output.
