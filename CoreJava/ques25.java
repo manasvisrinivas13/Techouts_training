@@ -1,9 +1,8 @@
 package Consumerex1;
-
-import java.awt.List;
+import java.util.function.Consumer;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.function.Consumer;
+
 
 public class ques25 {
 	
@@ -40,7 +39,9 @@ class consumer
 			
 			
 			
-		}catch(Exception e) {
+		}
+		catch(Exception e)
+		{
 			System.out.println(e.getMessage());
 		}
 		
